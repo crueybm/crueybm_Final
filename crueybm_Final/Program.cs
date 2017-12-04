@@ -16,7 +16,7 @@ namespace crueybm_Final
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmGPS());
+            Application.Run(new frmGPS());      //Occasionally throws a System.AccessViolation Exception, will fix later
         }
     }
 }
